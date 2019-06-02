@@ -1,3 +1,7 @@
+# Code adapted from
+#  https://stackoverflow.com/questions/18873066/pretty-json-formatting-in-ipython-notebook
+#  and
+#  https://codepen.io/JackZelig/pen/KXZdop
 
 
 import uuid
