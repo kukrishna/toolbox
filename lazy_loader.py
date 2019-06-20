@@ -32,7 +32,8 @@ def dump_objs(list_of_objs, outfpath):
     
 def load_objs(infpath):
     strs=read_list_of_strings(infpath)
-    return [pickle.loads(s) for s in strs]
+    for s in strs:
+	yield pickle.loads(s)
 
 
 
